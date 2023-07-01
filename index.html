@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stock Alert</title>
+</head>
+
+<body>
+    <h1>Stock Alert!!</h1>
+    <form action="/process_form" method="POST">
+        <label for="StkSym">Stock Symbol:</label>
+        <input type="text" id="StkSym" name="StkSym" required><br><br>
+
+        <label for="ThrPrice">Threshold Price</label>
+        <input type="text" id="ThrPrice" name="ThrPrice" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
