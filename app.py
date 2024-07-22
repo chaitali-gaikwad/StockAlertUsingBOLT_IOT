@@ -86,7 +86,7 @@ def send_telegram_message(message):
 
 
 def get_stock_price(symbol):
-    url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={stckSym}&apikey=CYVW2GLS5M9VH6GX"
+    url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={stckSym}&apikey={enter api key here}"
     response = requests.get(url)
     data = json.loads(response.text)
 
